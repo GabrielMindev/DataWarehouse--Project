@@ -593,20 +593,7 @@ fetch first 10 rows only;
 
 
 
-/*CREATE SEQUENCE Loan_dim_Loan_dim_ID_SEQ 
-START WITH 1 
-    NOCACHE 
-    ORDER ;
 
-CREATE OR REPLACE TRIGGER Loan_dim_Loan_dim_ID_TRG 
-BEFORE INSERT ON Loan_dim 
-FOR EACH ROW 
-WHEN (NEW.Loan_dim_ID IS NULL) 
-BEGIN
-:new.loan_dim_id := loan_dim_loan_dim_id_seq.nextval;
-
-end;
-/*/
 
 
 
